@@ -2143,7 +2143,7 @@ var SETDEX_SV = {
     "Monotype Choice Scarf (Dark)": {"ability":"Magician","item":"Choice Scarf","nature":"Hasty","teraType":"Psychic","evs":{"sa":252,"sd":8,"sp":248},"moves":["Knock Off","Focus Blast","Psychic","Thunderbolt"]},
     "Monotype Trick Room (Dark)": {"ability":"Magician","item":"Expert Belt","nature":"Modest","teraType":"Psychic","ivs":{"at":0},"evs":{"hp":184,"df":68,"sa":160,"sp":96},"moves":["Trick Room","Thunderbolt","Psychic","Focus Blast"]},
     "Monotype Substitute (Psychic)": {"ability":"Magician","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Psychic","evs":{"hp":252,"df":160,"sp":96},"moves":["Substitute","Knock Off","Psychic","Drain Punch"]},
-    "Monotype Assault Vest (Dark)": {"ability":"Magician","item":"Assault Vest","nature":"Gentle","teraType":"Psychic","evs":{"hp":240,"sa":136,"sd":36,"sp":96},"moves":["Psychic","Knock Off","Focus Blast","Thunderbolt"]},
+    "Monotype Assault Vest (Dark)": {"ability":"Magician","item":"Assault Vest","nature":"Mild","teraType":"Psychic","evs":{"hp":240,"sa":16,"sd":156,"sp":96},"moves":["Psychic","Knock Off","Focus Blast","Thunderbolt"]},
     "National Dex Wallbreaker": {"ability":"Magician","item":"Choice Band","nature":"Adamant","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Hyperspace Fury","Drain Punch","Zen Headbutt","Gunk Shot"]}
   },
   "Volcanion": {
