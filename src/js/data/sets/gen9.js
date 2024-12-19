@@ -396,7 +396,7 @@ var SETDEX_SV = {
     "National Dex Monotype Showdown Usage": {"ability":"Flame Body","item":"Heavy-Duty Boots","nature":"Impish","teraType":"Fire","evs":{"hp":248,"df":252,"sd":8},"moves":["Roost","Defog","Flamethrower","U-turn"]}
   },
   "Moltres-Galar": {
-    "OU Nasty Plot": {"ability":"Berserk","item":"Sitrus Berry","nature":"Modest","teraType":"Fairy","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Fiery Wrath","Tera Blast","Agility"]},
+    "OU Double Dance": {"ability":"Berserk","item":"Sitrus Berry","nature":"Modest","teraType":"Fairy","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Agility","Fiery Wrath","Tera Blast"]},
     "Monotype Nasty Plot (Flying)": {"ability":"Berserk","item":"Heavy-Duty Boots","nature":"Modest","teraType":"Dark","evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Fiery Wrath","Hurricane","Agility"]},
     "Monotype Nasty Plot (Dark)": {"ability":"Berserk","item":"Weakness Policy","nature":"Modest","teraType":"Dark","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Hurricane","Fiery Wrath","Agility"]},
     "National Dex UU Nasty Plot": {"ability":"Berserk","item":"Flyinium Z","nature":"Modest","teraType":"Dark","evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Agility","Fiery Wrath","Hurricane"]},
@@ -1463,8 +1463,7 @@ var SETDEX_SV = {
     "Anything Goes Defensive": {"ability":"Multitype","item":"Pixie Plate","nature":"Bold","teraType":"Water","ivs":{"at":0},"evs":{"hp":248,"df":244,"sp":16},"moves":["Judgment","Recover","Thunder Wave","Stealth Rock"]},
     "Anything Goes Utility": {"ability":"Multitype","item":"Pixie Plate","nature":"Timid","teraType":"Water","evs":{"hp":248,"df":8,"sp":252},"moves":["Will-O-Wisp","Judgment","Recover","Taunt"]},
     "Anything Goes Offensive Calm Mind": {"ability":"Multitype","item":"Pixie Plate","nature":"Timid","teraType":"Water","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Calm Mind","Judgment","Earth Power","Recover"]},
-    "Balanced Hackmons Take Heart": {"ability":"Fur Coat","item":"Pixie Plate","nature":"Timid","teraType":"Fairy","ivs":{"at":0},"evs":{"hp":252,"df":252,"sa":252,"sd":252,"sp":252},"moves":["Take Heart","Moonblast","Thunder Cage","Strength Sap"]},
-    "Balanced Hackmons Tidy Up": {"ability":"Fur Coat","item":"Covert Cloak","nature":"Impish","teraType":"Fairy","evs":{"hp":252,"at":252,"df":252,"sd":252,"sp":252},"moves":["Tidy Up","Magical Torque","Spirit Shackle","Strength Sap"]}
+    "Balanced Hackmons Take Heart": {"ability":"Fur Coat","item":"Leftovers","nature":"Timid","teraType":"Fairy","ivs":{"at":0},"evs":{"hp":252,"df":252,"sa":252,"sd":252,"sp":252},"moves":["Take Heart","Moonblast","Thunder Cage","Strength Sap"]}
   },
   "Arceus-Fighting": {
     "Ubers Cosmic Power": {"ability":"Multitype","item":"Fist Plate","nature":"Bold","teraType":"Poison","ivs":{"at":0},"evs":{"hp":252,"df":132,"sp":124},"moves":["Body Press","Cosmic Power","Recover","Stored Power"]}
@@ -3156,7 +3155,7 @@ var SETDEX_SV = {
     "CAP Showdown Usage": {"ability":"Supreme Overlord","item":"Leftovers","nature":"Adamant","teraType":"Dark","evs":{"hp":40,"at":252,"sp":216},"moves":["Sucker Punch","Swords Dance","Kowtow Cleave","Iron Head"]}
   },
   "Great Tusk": {
-    "OU Offensive Utility": {"ability":"Protosynthesis","item":"Rocky Helmet","nature":"Jolly","teraType":"Steel","evs":{"at":252,"sd":4,"sp":252},"moves":["Headlong Rush","Ice Spinner","Rapid Spin","Knock Off"]},
+    "OU Offensive Utility": {"ability":"Protosynthesis","item":"Rocky Helmet","nature":"Jolly","teraType":"Steel","evs":{"at":252,"df":4,"sp":252},"moves":["Headlong Rush","Ice Spinner","Rapid Spin","Knock Off"]},
     "OU Defensive": {"ability":"Protosynthesis","item":"Rocky Helmet","nature":"Jolly","teraType":"Steel","evs":{"hp":252,"at":4,"sp":252},"moves":["Headlong Rush","Ice Spinner","Rapid Spin","Knock Off"]},
     "OU Bulk Up": {"ability":"Protosynthesis","item":"Booster Energy","nature":"Jolly","teraType":"Poison","evs":{"hp":252,"at":4,"sp":252},"moves":["Bulk Up","Headlong Rush","Ice Spinner","Rapid Spin"]},
     "Ubers Choice Item": {"ability":"Protosynthesis","item":"Choice Scarf","nature":"Adamant","teraType":"Ground","evs":{"at":252,"df":4,"sp":252},"moves":["Headlong Rush","Close Combat","Earthquake","Rapid Spin"]},
@@ -3248,7 +3247,7 @@ var SETDEX_SV = {
     "Battle Stadium Singles Regulation E Speedy Booster Energy": {"level":50,"ability":"Protosynthesis","item":"Booster Energy","nature":"Timid","teraType":"Ice","evs":{"hp":52,"sa":204,"sp":252},"moves":["Thunderbolt","Earth Power","Tera Blast","Stealth Rock"]},
     "Battle Stadium Singles Regulation E Choice Item": {"level":50,"ability":"Protosynthesis","item":"Choice Scarf","nature":"Timid","teraType":"Grass","evs":{"hp":4,"sa":252,"sp":252},"moves":["Thunderbolt","Volt Switch","Earth Power","Tera Blast"]},
     "Monotype Entry Hazard Support (Electric)": {"ability":"Protosynthesis","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Electric","evs":{"hp":48,"sa":208,"sp":252},"moves":["Earth Power","Volt Switch","Stealth Rock","Thunderbolt"]},
-    "Monotype Gravity (Ground)": {"ability":"Protosynthesis","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Electric","evs":{"sa":252,"sd":4,"sp":252},"moves":["Gravity","Earth Power","Thunderbolt","Volt Switch"]},
+    "Monotype Gravity Utility (Ground)": {"ability":"Protosynthesis","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Electric","evs":{"sa":252,"sd":4,"sp":252},"moves":["Gravity","Earth Power","Volt Switch","Thunderbolt"]},
     "National Dex RU Offensive Pivot": {"ability":"Protosynthesis","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Electric","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Earth Power","Thunderbolt","Stealth Rock"]},
     "National Dex RU Choice Scarf": {"ability":"Protosynthesis","item":"Choice Scarf","nature":"Timid","teraType":"Electric","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Earth Power","Thunderbolt","Stealth Rock"]},
     "National Dex RU Choice Specs": {"ability":"Protosynthesis","item":"Choice Specs","nature":"Timid","teraType":"Electric","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Earth Power","Thunderbolt","Spikes"]},
