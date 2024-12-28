@@ -3230,7 +3230,7 @@ var SETDEX_SV = {
   "Slither Wing": {
     "OU Assault Vest": {"ability":"Protosynthesis","item":"Assault Vest","nature":"Adamant","teraType":"Steel","evs":{"at":252,"sd":4,"sp":252},"moves":["First Impression","Close Combat","U-turn","Earthquake"]},
     "OU Defensive": {"ability":"Protosynthesis","item":"Heavy-Duty Boots","nature":"Impish","teraType":"Steel","evs":{"hp":252,"at":28,"df":220,"sp":8},"moves":["First Impression","U-turn","Morning Sun","Will-O-Wisp"]},
-    "RU Bulky Pivot": {"ability":"Protosynthesis","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Steel","evs":{"hp":252,"at":16,"df":72,"sp":168},"moves":["U-turn","Close Combat","Will-O-Wisp","Morning Sun"]},
+    "RU Pivot": {"ability":"Protosynthesis","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Bug","evs":{"at":252,"sd":4,"sp":252},"moves":["First Impression","Close Combat","U-turn","Morning Sun"]},
     "RU Choice Band": {"ability":"Protosynthesis","item":"Choice Band","nature":"Jolly","teraType":"Bug","evs":{"at":252,"sd":4,"sp":252},"moves":["U-turn","Close Combat","First Impression","Earthquake"]},
     "Battle Stadium Singles Regulation E Offensive": {"level":50,"ability":"Protosynthesis","item":"Assault Vest","nature":"Adamant","teraType":"Bug","evs":{"hp":252,"at":252,"sp":4},"moves":["First Impression","U-turn","Close Combat","Flare Blitz"]},
     "Battle Stadium Singles Regulation E Bulk Up": {"level":50,"ability":"Protosynthesis","item":"Booster Energy","nature":"Adamant","teraType":"Steel","evs":{"hp":252,"at":252,"sp":4},"moves":["Bulk Up","Leech Life","Morning Sun","Close Combat"]},
@@ -3542,9 +3542,6 @@ var SETDEX_SV = {
   "Okidogi": {
     "OU Assault Vest": {"ability":"Toxic Chain","item":"Assault Vest","nature":"Adamant","teraType":"Water","evs":{"hp":240,"at":252,"sp":16},"moves":["Drain Punch","Gunk Shot","Knock Off","Ice Punch"]},
     "OU Bulk Up": {"ability":"Guard Dog","item":"Leftovers","nature":"Careful","teraType":"Water","evs":{"hp":252,"sd":160,"sp":96},"moves":["Bulk Up","Drain Punch","Knock Off","Ice Punch"]},
-    "UU Bulk Up": {"ability":"Toxic Chain","item":"Leftovers","nature":"Adamant","teraType":"Fairy","evs":{"hp":152,"at":108,"sd":132,"sp":116},"moves":["Bulk Up","Poison Jab","Drain Punch","Psychic Fangs"]},
-    "UU Choice Scarf": {"ability":"Toxic Chain","item":"Choice Scarf","nature":"Adamant","teraType":"Fighting","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Gunk Shot","Knock Off","Psychic Fangs"]},
-    "UU Assault Vest": {"ability":"Toxic Chain","item":"Assault Vest","nature":"Adamant","teraType":"Fairy","evs":{"hp":252,"at":112,"sd":128,"sp":16},"moves":["Drain Punch","Knock Off","Poison Jab","Psychic Fangs"]},
     "Monotype Bulk Up (Poison)": {"ability":"Toxic Chain","item":"Black Sludge","nature":"Careful","teraType":"Poison","evs":{"hp":208,"sd":204,"sp":96},"moves":["Bulk Up","Drain Punch","Knock Off","Taunt"]},
     "Monotype Choice Scarf (Poison)": {"ability":"Toxic Chain","item":"Choice Scarf","nature":"Jolly","teraType":"Poison","evs":{"at":252,"df":4,"sp":252},"moves":["Close Combat","Knock Off","Ice Punch","Gunk Shot"]},
     "Monotype Assault Vest (Fighting)": {"ability":"Toxic Chain","item":"Assault Vest","nature":"Careful","teraType":"Poison","evs":{"hp":252,"sd":240,"sp":16},"moves":["Drain Punch","Gunk Shot","Knock Off","Ice Punch"]},
@@ -3552,7 +3549,8 @@ var SETDEX_SV = {
     "National Dex UU Defensive Bulk Up": {"ability":"Toxic Chain","item":"Black Sludge","nature":"Adamant","teraType":"Poison","evs":{"hp":248,"at":32,"sd":124,"sp":104},"moves":["Bulk Up","Drain Punch","Knock Off","Substitute"]},
     "National Dex UU Offensive Bulk Up": {"ability":"Toxic Chain","item":"Fightinium Z","nature":"Adamant","teraType":"Poison","evs":{"hp":76,"at":252,"sp":180},"moves":["Bulk Up","Close Combat","Gunk Shot","Knock Off"]},
     "National Dex Monotype Bulk Up (Poison)": {"ability":"Toxic Chain","item":"Black Sludge","nature":"Careful","teraType":"Poison","evs":{"hp":252,"sd":204,"sp":52},"moves":["Bulk Up","Drain Punch","Knock Off","Substitute"]},
-    "1v1 Showdown Usage": {"ability":"Guard Dog","item":"Choice Scarf","nature":"Adamant","teraType":"Poison","evs":{"hp":4,"at":252,"sp":252},"moves":["Knock Off","Close Combat","Poison Jab","Ice Punch"]}
+    "1v1 Showdown Usage": {"ability":"Guard Dog","item":"Choice Scarf","nature":"Adamant","teraType":"Poison","evs":{"hp":4,"at":252,"sp":252},"moves":["Knock Off","Close Combat","Poison Jab","Ice Punch"]},
+    "UU Showdown Usage": {"ability":"Toxic Chain","item":"Leftovers","nature":"Adamant","teraType":"Poison","evs":{"at":252,"sd":4,"sp":252},"moves":["Psychic Fangs","Drain Punch","Gunk Shot","Bulk Up"]}
   },
   "Munkidori": {
     "Battle Stadium Singles Regulation E Choice Scarf Pivot": {"level":50,"ability":"Toxic Chain","item":"Choice Scarf","nature":"Timid","teraType":"Poison","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Psychic","Sludge Wave","Parting Shot","Shadow Ball"]},
