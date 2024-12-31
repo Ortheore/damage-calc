@@ -500,7 +500,7 @@ var SETDEX_SV = {
     "RU Choice Scarf": {"ability":"Magic Bounce","item":"Choice Scarf","nature":"Timid","teraType":"Fairy","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Psychic","Shadow Ball","Dazzling Gleam","Trick"]}
   },
   "Umbreon": {
-    "RU Wish Support": {"ability":"Inner Focus","item":"Leftovers","nature":"Calm","teraType":"Poison","ivs":{"at":0},"evs":{"hp":252,"df":4,"sd":252},"moves":["Foul Play","Wish","Toxic","Protect"]},
+    "RU Wish Support": {"ability":"Inner Focus","item":"Leftovers","nature":"Calm","teraType":"Poison","evs":{"hp":252,"df":4,"sd":252},"moves":["Foul Play","Wish","Toxic","Protect"]},
     "Battle Stadium Singles Regulation E Wish Tank": {"level":50,"ability":"Inner Focus","item":"Leftovers","nature":"Bold","teraType":"Fairy","evs":{"hp":252,"df":252,"sd":4},"moves":["Foul Play","Protect","Wish","Yawn"]},
     "National Dex RU Showdown Usage": {"ability":"Synchronize","item":"Leftovers","nature":"Bold","teraType":"Dark","evs":{"hp":252,"df":252,"sp":4},"moves":["Wish","Foul Play","Protect","Heal Bell"]}
   },
@@ -661,7 +661,7 @@ var SETDEX_SV = {
     "LC Offensive Pivot": {"level":5,"ability":"Vital Spirit","item":"Eviolite","nature":"Naive","teraType":"Psychic","evs":{"sa":236,"sp":236},"moves":["Thunderbolt","Psychic","Ice Punch","Volt Switch"]}
   },
   "Magby": {
-    "LC Life Orb": {"level":5,"ability":"Vital Spirit","item":"Life Orb","nature":"Timid","teraType":"Psychic","ivs":{"hp":9},"evs":{"sa":196,"sp":252},"moves":["Fire Blast","Psychic","Substitute","Protect"]},
+    "LC Life Orb": {"level":5,"ability":"Vital Spirit","item":"Life Orb","nature":"Timid","teraType":"Psychic","ivs":{"hp":9},"evs":{"df":60,"sa":196,"sp":252},"moves":["Fire Blast","Psychic","Substitute","Protect"]},
     "LC Belly Drum": {"level":5,"ability":"Vital Spirit","item":"Oran Berry","nature":"Jolly","teraType":"Ghost","ivs":{"hp":29},"evs":{"at":236,"sp":252},"moves":["Belly Drum","Temper Flare","Mach Punch","Thunder Punch"]}
   },
   "Blissey": {
@@ -1184,8 +1184,7 @@ var SETDEX_SV = {
   },
   "Toxicroak": {
     "RU Swords Dance": {"ability":"Dry Skin","item":"Life Orb","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Gunk Shot","Close Combat","Sucker Punch"]},
-    "NU Swords Dance": {"ability":"Dry Skin","item":"Leftovers","nature":"Jolly","teraType":"Dark","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Close Combat","Gunk Shot","Sucker Punch"]},
-    "Monotype Swords Dance (Fighting)": {"ability":"Dry Skin","item":"Life Orb","nature":"Jolly","teraType":"Poison","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Gunk Shot","Earthquake","Sucker Punch"]}
+    "NU Swords Dance": {"ability":"Dry Skin","item":"Leftovers","nature":"Jolly","teraType":"Dark","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Close Combat","Gunk Shot","Sucker Punch"]}
   },
   "Snover": {
     "LC Snow Setter": {"level":5,"ability":"Snow Warning","item":"Icy Rock","nature":"Hasty","teraType":"Ice","evs":{"at":100,"sa":180,"sp":196},"moves":["Blizzard","Giga Drain","Ice Shard","Protect"]}
@@ -1713,8 +1712,8 @@ var SETDEX_SV = {
     "National Dex UU Showdown Usage": {"ability":"Mold Breaker","item":"Dragonium Z","nature":"Adamant","teraType":"Dragon","evs":{"at":252,"sd":4,"sp":252},"moves":["Poison Jab","Outrage","Dragon Dance","Close Combat"]}
   },
   "Mienfoo": {
-    "LC Fast Pivot": {"level":5,"ability":"Regenerator","item":"Eviolite","nature":"Jolly","teraType":"Dragon","evs":{"df":196,"sd":36,"sp":236},"moves":["High Jump Kick","Knock Off","U-turn","Fake Out"]},
-    "LC Slow Pivot": {"level":5,"ability":"Regenerator","item":"Eviolite","nature":"Impish","teraType":"Fairy","evs":{"hp":156,"df":196,"sd":116},"moves":["Fake Out","High Jump Kick","Knock Off","U-turn"]},
+    "LC Fast Pivot": {"level":5,"ability":"Regenerator","item":"Eviolite","nature":"Jolly","teraType":"Water","evs":{"df":196,"sd":36,"sp":236},"moves":["High Jump Kick","Knock Off","U-turn","Fake Out"]},
+    "LC Slow Pivot": {"level":5,"ability":"Regenerator","item":"Eviolite","nature":"Impish","teraType":"Water","evs":{"hp":156,"df":196,"sd":116},"moves":["Fake Out","High Jump Kick","Knock Off","U-turn"]},
     "LC Choice Scarf": {"level":5,"ability":"Reckless","item":"Choice Scarf","nature":"Jolly","teraType":"Fighting","evs":{"at":236,"df":36,"sp":236},"moves":["High Jump Kick","Close Combat","Knock Off","U-turn"]}
   },
   "Mienshao": {
@@ -1736,7 +1735,7 @@ var SETDEX_SV = {
     "NU Showdown Usage": {"ability":"Defiant","item":"Life Orb","nature":"Adamant","teraType":"Normal","evs":{"hp":156,"at":252,"sp":100},"moves":["Brave Bird","Defog","Close Combat","Iron Head"]}
   },
   "Vullaby": {
-    "LC Physical Attacker": {"level":5,"ability":"Weak Armor","item":"Eviolite","nature":"Jolly","teraType":"Electric","evs":{"at":236,"df":76,"sp":196},"moves":["Brave Bird","Knock Off","Roost","U-turn"]},
+    "LC Physical Attacker": {"level":5,"ability":"Weak Armor","item":"Eviolite","nature":"Jolly","teraType":"Ghost","evs":{"at":236,"df":76,"sp":196},"moves":["Brave Bird","Knock Off","Roost","U-turn"]},
     "LC Nasty Plot": {"level":5,"ability":"Weak Armor","item":"Eviolite","nature":"Modest","teraType":"Ghost","ivs":{"at":0},"evs":{"df":76,"sa":236,"sp":196},"moves":["Roost","Nasty Plot","Air Slash","Heat Wave"]}
   },
   "Mandibuzz": {
@@ -3048,7 +3047,7 @@ var SETDEX_SV = {
     "PU Showdown Usage": {"ability":"Earth Eater","item":"Leftovers","nature":"Impish","teraType":"Steel","evs":{"hp":248,"df":120,"sd":136,"sp":4},"moves":["Body Press","Stealth Rock","Heavy Slam","Iron Defense"]}
   },
   "Glimmet": {
-    "LC Entry Hazard Setter": {"level":5,"ability":"Toxic Debris","item":"Eviolite","nature":"Timid","teraType":"Flying","ivs":{"at":0},"evs":{"hp":132,"df":100,"sa":76,"sp":196},"moves":["Stealth Rock","Power Gem","Mud Shot","Sludge Bomb"]}
+    "LC Entry Hazard Setter": {"level":5,"ability":"Toxic Debris","item":"Eviolite","nature":"Timid","teraType":"Ghost","ivs":{"at":0},"evs":{"hp":132,"df":100,"sa":76,"sp":196},"moves":["Stealth Rock","Power Gem","Mud Shot","Sludge Bomb"]}
   },
   "Glimmora": {
     "OU Lead": {"ability":"Toxic Debris","item":"Focus Sash","nature":"Timid","teraType":"Ghost","evs":{"df":4,"sa":252,"sp":252},"moves":["Stealth Rock","Mortal Spin","Power Gem","Earth Power"]},
