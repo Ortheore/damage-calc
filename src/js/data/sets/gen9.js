@@ -85,9 +85,9 @@ var SETDEX_SV = {
   },
   "Clefable": {
     "OU Utility": {"ability":"Magic Guard","item":"Leftovers","nature":"Bold","teraType":"Water","evs":{"hp":252,"df":252,"sd":4},"moves":["Stealth Rock","Moonblast","Moonlight","Knock Off"]},
-    "OU Calm Mind": {"ability":"Magic Guard","item":"Leftovers","nature":"Bold","teraType":"Fire","ivs":{"at":0},"evs":{"hp":252,"df":252,"sd":4},"moves":["Calm Mind","Moonblast","Moonlight","Flamethrower"]},
+    "OU Calm Mind": {"ability":"Magic Guard","item":"Leftovers","nature":"Bold","teraType":"Fire","ivs":{"at":0},"evs":{"hp":252,"df":252,"sd":4},"moves":["Calm Mind","Moonblast","Moonlight","Knock Off"]},
     "Monotype Calm Mind": {"ability":"Magic Guard","item":"Leftovers","nature":"Bold","teraType":"Fairy","ivs":{"at":0},"evs":{"hp":252,"df":196,"sp":60},"moves":["Moonblast","Thunderbolt","Moonlight","Calm Mind"]},
-    "National Dex Utility": {"ability":"Magic Guard","item":"Leftovers","nature":"Bold","teraType":"Fairy","evs":{"hp":252,"df":252,"sd":4},"moves":["Moonblast","Stealth Rock","Knock Off","Soft-Boiled"]},
+    "National Dex Utility": {"ability":"Magic Guard","item":"Leftovers","nature":"Bold","teraType":"Fairy","evs":{"hp":252,"df":244,"sd":12},"moves":["Moonblast","Stealth Rock","Knock Off","Soft-Boiled"]},
     "National Dex Calm Mind": {"ability":"Magic Guard","item":"Leftovers","nature":"Bold","teraType":"Fairy","evs":{"hp":252,"df":252,"sd":4},"moves":["Moonblast","Calm Mind","Knock Off","Soft-Boiled"]},
     "National Dex UU Utility": {"ability":"Magic Guard","item":"Rocky Helmet","nature":"Bold","teraType":"Fairy","evs":{"hp":252,"df":252,"sd":4},"moves":["Moonblast","Soft-Boiled","Thunder Wave","Stealth Rock"]},
     "National Dex Monotype Calm Mind": {"ability":"Magic Guard","item":"Leftovers","nature":"Bold","teraType":"Fairy","ivs":{"at":0},"evs":{"hp":252,"df":196,"sp":60},"moves":["Moonblast","Thunderbolt","Soft-Boiled","Calm Mind"]},
@@ -1247,6 +1247,7 @@ var SETDEX_SV = {
     "Ubers Defensive": {"ability":"Poison Heal","item":"Toxic Orb","nature":"Impish","teraType":"Water","evs":{"hp":244,"df":252,"sd":12},"moves":["Earthquake","Toxic","Spikes","Protect"]},
     "Battle Stadium Singles Regulation E Glis": {"level":50,"ability":"Poison Heal","item":"Toxic Orb","nature":"Impish","teraType":"Steel","evs":{"hp":212,"df":228,"sp":68},"moves":["Earthquake","Substitute","Toxic","Protect"]},
     "Monotype Swords Dance (Flying)": {"ability":"Poison Heal","item":"Toxic Orb","nature":"Jolly","teraType":"Ground","evs":{"hp":244,"df":32,"sd":224,"sp":8},"moves":["Swords Dance","Earthquake","Facade","Protect"]},
+    "Monotype SubTox (Ground)": {"ability":"Poison Heal","item":"Toxic Orb","nature":"Jolly","teraType":"Ground","evs":{"hp":244,"sd":220,"sp":44},"moves":["Earthquake","Protect","Substitute","Toxic"]},
     "Monotype Entry Hazard Support (Flying)": {"ability":"Poison Heal","item":"Toxic Orb","nature":"Careful","teraType":"Ground","evs":{"hp":244,"sd":204,"sp":60},"moves":["Stealth Rock","Toxic","Earthquake","Protect"]},
     "Monotype Swords Dance (Ground)": {"ability":"Poison Heal","item":"Toxic Orb","nature":"Careful","teraType":"Ground","evs":{"hp":244,"sd":248,"sp":16},"moves":["Swords Dance","Earthquake","Knock Off","Protect"]},
     "Monotype Defensive Utility (Ground)": {"ability":"Poison Heal","item":"Toxic Orb","nature":"Impish","teraType":"Ground","evs":{"hp":244,"df":80,"sd":48,"sp":136},"moves":["Earthquake","Knock Off","Toxic","Protect"]},
@@ -2580,15 +2581,13 @@ var SETDEX_SV = {
   "Zamazenta": {
     "OU IronPress": {"ability":"Dauntless Shield","item":"Leftovers","nature":"Jolly","teraType":"Fire","evs":{"hp":252,"df":88,"sp":168},"moves":["Iron Defense","Body Press","Crunch","Roar"]},
     "OU All-Out Attacker": {"ability":"Dauntless Shield","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Crunch","Stone Edge","Heavy Slam"]},
-    "Monotype Choice Band": {"ability":"Dauntless Shield","item":"Choice Band","nature":"Jolly","teraType":"Fighting","evs":{"hp":8,"at":216,"sd":32,"sp":252},"moves":["Close Combat","Heavy Slam","Ice Fang","Crunch"]},
-    "Monotype Iron Defense": {"ability":"Dauntless Shield","item":"Leftovers","nature":"Jolly","teraType":"Fighting","evs":{"hp":248,"df":8,"sp":252},"moves":["Iron Defense","Body Press","Substitute","Heavy Slam"]},
-    "Monotype Choice Scarf": {"ability":"Dauntless Shield","item":"Choice Scarf","nature":"Jolly","teraType":"Fighting","evs":{"hp":8,"at":236,"sd":32,"sp":232},"moves":["Close Combat","Heavy Slam","Crunch","Stone Edge"]},
     "National Dex All-Out Attacker": {"ability":"Dauntless Shield","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Fighting","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Crunch","Stone Edge","Ice Fang"]},
     "National Dex Iron Defense + Body Press": {"ability":"Dauntless Shield","item":"Leftovers","nature":"Jolly","teraType":"Fighting","evs":{"at":132,"df":124,"sp":252},"moves":["Iron Defense","Body Press","Crunch","Substitute"]},
     "Almost Any Ability Choice Band": {"ability":"Sword of Ruin","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Crunch","Stone Edge","Heavy Slam"]},
     "Almost Any Ability All-Out Attacker": {"ability":"Magic Guard","item":"Life Orb","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Crunch","Heavy Slam","Stone Edge"]},
     "Almost Any Ability IronPress": {"ability":"Scrappy","item":"Leftovers","nature":"Jolly","evs":{"df":252,"sd":4,"sp":252},"moves":["Body Press","Stone Edge","Iron Defense","Substitute"]},
     "Balanced Hackmons Showdown Usage": {"ability":"Fur Coat","item":"Covert Cloak","nature":"Jolly","teraType":"Fighting","evs":{"hp":252,"at":252,"df":252,"sd":252,"sp":252},"moves":["Strength Sap","Mortal Spin","Combat Torque","Knock Off"]},
+    "Monotype Showdown Usage": {"ability":"Dauntless Shield","item":"Leftovers","nature":"Jolly","teraType":"Fighting","evs":{"hp":248,"df":8,"sp":252},"moves":["Heavy Slam","Body Press","Iron Defense","Substitute"]},
     "CAP Showdown Usage": {"ability":"Dauntless Shield","item":"Leftovers","nature":"Jolly","teraType":"Fighting","evs":{"hp":252,"df":88,"sp":168},"moves":["Crunch","Body Press","Iron Defense","Roar"]}
   },
   "Zamazenta-Crowned": {
