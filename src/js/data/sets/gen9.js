@@ -1520,7 +1520,6 @@ var SETDEX_SV = {
   },
   "Arceus-Water": {
     "Ubers Defensive": {"ability":"Multitype","item":"Splash Plate","nature":"Bold","teraType":"Fairy","evs":{"hp":240,"df":252,"sp":16},"moves":["Judgment","Ice Beam","Calm Mind","Recover"]},
-    "National Dex Ubers Utility": {"ability":"Multitype","item":"Splash Plate","nature":"Bold","teraType":"Fairy","ivs":{"at":0},"evs":{"hp":248,"df":136,"sp":124},"moves":["Judgment","Toxic","Stealth Rock","Recover"]},
     "National Dex Ubers Defensive Calm Mind": {"ability":"Multitype","item":"Splash Plate","nature":"Bold","teraType":"Fairy","ivs":{"at":0},"evs":{"hp":248,"df":244,"sp":16},"moves":["Calm Mind","Judgment","Recover","Ice Beam"]},
     "National Dex Ubers Offensive Calm Mind": {"ability":"Multitype","item":"Splash Plate","nature":"Timid","teraType":"Ground","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Calm Mind","Judgment","Earth Power","Recover"]},
     "National Dex Ubers Calm Mind + Refresh": {"ability":"Multitype","item":"Splash Plate","nature":"Timid","teraType":"Fairy","evs":{"hp":252,"df":120,"sp":136},"moves":["Calm Mind","Refresh","Recover","Judgment"]},
@@ -2484,7 +2483,7 @@ var SETDEX_SV = {
   "Hatterene": {
     "OU Calm Mind": {"ability":"Magic Bounce","item":"Leftovers","nature":"Bold","teraType":"Water","evs":{"hp":252,"df":204,"sp":52},"moves":["Calm Mind","Draining Kiss","Psyshock","Mystical Fire"]},
     "OU Healing Wish": {"ability":"Magic Bounce","item":"Eject Button","nature":"Bold","teraType":"Steel","evs":{"hp":252,"df":124,"sp":132},"moves":["Healing Wish","Psychic","Dazzling Gleam","Nuzzle"]},
-    "OU Assault Vest": {"ability":"Magic Bounce","item":"Assault Vest","nature":"Modest","teraType":"Water","evs":{"hp":252,"sa":140,"sd":104,"sp":12},"moves":["Psyshock","Draining Kiss","Mystical Fire","Nuzzle"]},
+    "OU Assault Vest": {"ability":"Magic Bounce","item":"Assault Vest","nature":"Modest","teraType":"Water","ivs":{"at":0},"evs":{"hp":252,"sa":128,"sd":104,"sp":24},"moves":["Psyshock","Draining Kiss","Mystical Fire","Nuzzle"]},
     "Ubers Bulky Calm Mind": {"ability":"Magic Bounce","item":"Leftovers","nature":"Bold","teraType":"Water","evs":{"hp":252,"df":200,"sp":56},"moves":["Psyshock","Draining Kiss","Mystical Fire","Calm Mind"]},
     "Monotype Calm Mind (Psychic)": {"ability":"Magic Bounce","item":"Leftovers","nature":"Bold","teraType":"Psychic","evs":{"hp":252,"df":204,"sp":52},"moves":["Calm Mind","Psyshock","Draining Kiss","Nuzzle"]},
     "Monotype Calm Mind (Fairy)": {"ability":"Magic Bounce","item":"Leftovers","nature":"Bold","teraType":"Psychic","evs":{"hp":252,"df":204,"sp":52},"moves":["Calm Mind","Psyshock","Draining Kiss","Mystical Fire"]},
