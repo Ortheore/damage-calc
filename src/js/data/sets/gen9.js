@@ -23,7 +23,7 @@ var SETDEX_SV = {
   "Charizard": {
     "PU Sun Wallbreaker": {"ability":"Solar Power","item":"Choice Specs","nature":"Timid","teraType":"Fire","evs":{"df":4,"sa":252,"sp":252},"moves":["Weather Ball","Solar Beam","Focus Blast","Flamethrower"]},
     "National Dex Drought Wallbreaker": {"ability":"Blaze","item":"Charizardite Y","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Weather Ball","Solar Beam","Scorching Sands","Roost"]},
-    "National Dex Setup Sweeper": {"ability":"Blaze","item":"Charizardite X","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Dragon Claw","Earthquake"]},
+    "National Dex Setup Sweeper": {"ability":"Tough Claws","item":"Charizardite X","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Earthquake","Dragon Claw"]},
     "National Dex Monotype Dragon Dance (Fire)": {"ability":"Blaze","item":"Charizardite X","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Dragon Claw","Earthquake"]},
     "National Dex Monotype Sun Wallbreaker (Flying)": {"ability":"Blaze","item":"Charizardite Y","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Flamethrower","Solar Beam","Focus Blast","Roost"]},
     "National Dex Doubles Sun Attacker": {"ability":"Drought","item":"Charizardite Y","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Heat Wave","Solar Beam","Tailwind","Protect"]}
@@ -34,7 +34,7 @@ var SETDEX_SV = {
     "National Dex Doubles Sun Attacker": {"ability":"Drought","item":"Charizardite Y","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Heat Wave","Solar Beam","Tailwind","Protect"]}
   },
   "Charizard-Mega-X": {
-    "National Dex Setup Sweeper": {"ability":"Tough Claws","item":"Charizardite X","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Dragon Claw","Earthquake"]},
+    "National Dex Setup Sweeper": {"ability":"Tough Claws","item":"Charizardite X","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Earthquake","Dragon Claw"]},
     "National Dex Monotype Dragon Dance (Fire)": {"ability":"Tough Claws","item":"Charizardite X","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Dragon Claw","Earthquake"]},
     "National Dex Doubles Showdown Usage": {"ability":"Tough Claws","item":"Charizardite X","nature":"Jolly","teraType":"Fire","evs":{"hp":4,"at":252,"sp":252},"moves":["Flare Blitz","Protect","Dragon Dance","Dragon Claw"]}
   },
@@ -3163,6 +3163,7 @@ var SETDEX_SV = {
     "UU Defensive Hazard Setter": {"ability":"Water Absorb","item":"Heavy-Duty Boots","nature":"Impish","teraType":"Dark","evs":{"hp":248,"df":176,"sd":84},"moves":["Earthquake","Toxic","Spikes","Recover"]},
     "Battle Stadium Singles Regulation E Special Wall": {"level":50,"ability":"Water Absorb","item":"Sitrus Berry","nature":"Careful","teraType":"Dark","evs":{"hp":252,"sd":252,"sp":4},"moves":["Toxic","Recover","Earthquake","Toxic Spikes"]},
     "Battle Stadium Singles Regulation E Support": {"level":50,"ability":"Unaware","item":"Leftovers","nature":"Careful","teraType":"Flying","evs":{"hp":252,"sd":252,"sp":4},"moves":["Earthquake","Recover","Yawn","Stealth Rock"]},
+    "Monotype Physically Defensive (Poison)": {"ability":"Unaware","item":"Black Sludge","nature":"Impish","teraType":"Poison","evs":{"hp":252,"df":232,"sd":24},"moves":["Earthquake","Toxic","Stealth Rock","Recover"]},
     "Monotype Water Absorb (Ground)": {"ability":"Water Absorb","item":"Black Sludge","nature":"Careful","teraType":"Poison","evs":{"hp":252,"df":160,"sd":96},"moves":["Earthquake","Haze","Poison Jab","Recover"]},
     "Monotype The Clod (Special Wall) (Poison)": {"ability":"Water Absorb","item":"Black Sludge","nature":"Careful","teraType":"Poison","evs":{"hp":252,"df":4,"sd":252},"moves":["Earthquake","Low Kick","Stealth Rock","Recover"]},
     "National Dex Defensive": {"ability":"Unaware","item":"Heavy-Duty Boots","nature":"Careful","teraType":"Poison","evs":{"hp":252,"df":4,"sd":252},"moves":["Earthquake","Toxic","Stealth Rock","Recover"]},
