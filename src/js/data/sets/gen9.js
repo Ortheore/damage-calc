@@ -1230,7 +1230,7 @@ var SETDEX_SV = {
   },
   "Weavile": {
     "National Dex Choice Band": {"ability":"Pressure","item":"Choice Band","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Triple Axel","Knock Off","Ice Shard","Pursuit"]},
-    "National Dex Offensive": {"ability":"Pressure","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Triple Axel","Knock Off","Swords Dance","Ice Shard"]},
+    "National Dex Swords Dance": {"ability":"Pressure","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Triple Axel","Knock Off","Swords Dance","Ice Shard"]},
     "National Dex Monotype Swords Dance (Dark)": {"ability":"Pressure","item":"Icium Z","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Icicle Crash","Knock Off","Ice Shard"]},
     "National Dex Monotype Choice Scarf (Ice)": {"ability":"Pressure","item":"Choice Scarf","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Pursuit","Triple Axel","Knock Off","Low Kick"]}
   },
@@ -1334,7 +1334,7 @@ var SETDEX_SV = {
     "Monotype Physically Defensive (Electric)": {"ability":"Levitate","item":"Leftovers","nature":"Bold","teraType":"Electric","ivs":{"at":0},"evs":{"hp":248,"df":212,"sp":48},"moves":["Will-O-Wisp","Hydro Pump","Volt Switch","Foul Play"]},
     "Monotype Nasty Plot (Electric)": {"ability":"Levitate","item":"Leftovers","nature":"Timid","teraType":"Electric","ivs":{"at":0},"evs":{"hp":212,"df":48,"sp":248},"moves":["Hydro Pump","Stored Power","Nasty Plot","Substitute"]},
     "Monotype Nasty Plot (Water)": {"ability":"Levitate","item":"Leftovers","nature":"Modest","teraType":"Electric","evs":{"hp":144,"df":112,"sa":164,"sp":88},"moves":["Thunderbolt","Stored Power","Nasty Plot","Substitute"]},
-    "National Dex Defensive Pivot": {"ability":"Levitate","item":"Leftovers","nature":"Bold","teraType":"Electric","ivs":{"at":0},"evs":{"hp":252,"df":248,"sp":8},"moves":["Volt Switch","Hydro Pump","Will-O-Wisp","Pain Split"]},
+    "National Dex Defensive Pivot": {"ability":"Levitate","item":"Leftovers","nature":"Bold","teraType":"Electric","ivs":{"at":0},"evs":{"hp":252,"df":252,"sd":4},"moves":["Volt Switch","Hydro Pump","Will-O-Wisp","Pain Split"]},
     "National Dex Choice Scarf": {"ability":"Levitate","item":"Choice Scarf","nature":"Timid","teraType":"Electric","ivs":{"at":0},"evs":{"hp":252,"df":4,"sp":252},"moves":["Hydro Pump","Volt Switch","Trick","Will-O-Wisp"]},
     "National Dex Monotype Bulky Pivot (Electric)": {"ability":"Levitate","item":"Leftovers","nature":"Bold","teraType":"Electric","ivs":{"at":0},"evs":{"hp":252,"df":212,"sp":44},"moves":["Hydro Pump","Volt Switch","Will-O-Wisp","Defog"]}
   },
@@ -3431,7 +3431,7 @@ var SETDEX_SV = {
     "VGC 2023 Regulation E Offensive": {"level":50,"ability":"Sword of Ruin","item":"Focus Sash","nature":"Adamant","teraType":"Ghost","evs":{"hp":4,"at":252,"sp":252},"moves":["Sucker Punch","Icicle Crash","Sacred Sword","Protect"]},
     "Battle Stadium Singles Regulation E RUINOUS ATTACKER": {"level":50,"ability":"Sword of Ruin","item":"Focus Sash","nature":"Jolly","teraType":"Electric","ivs":{"sa":0},"evs":{"at":252,"df":4,"sp":252},"moves":["Icicle Crash","Sucker Punch","Sacred Sword","Swords Dance"]},
     "Battle Stadium Singles Regulation E Choice Band Breaker": {"level":50,"ability":"Sword of Ruin","item":"Choice Band","nature":"Adamant","teraType":"Dark","ivs":{"sa":0},"evs":{"at":252,"df":4,"sp":252},"moves":["Icicle Crash","Crunch","Sucker Punch","Sacred Sword"]},
-    "National Dex Ubers Choice Band": {"ability":"Sword of Ruin","item":"Choice Band","nature":"Jolly","teraType":"Dark","evs":{"hp":40,"at":252,"sp":216},"moves":["Crunch","Ice Spinner","Ice Shard","Sacred Sword"]},
+    "National Dex Ubers Choice Band": {"ability":"Sword of Ruin","item":"Choice Band","nature":"Jolly","teraType":"Dark","evs":{"hp":32,"at":252,"df":8,"sp":216},"moves":["Crunch","Ice Spinner","Ice Shard","Sacred Sword"]},
     "1v1 Choice Band": {"ability":"Sword of Ruin","item":"Choice Band","nature":"Jolly","teraType":"Dark","evs":{"at":252,"df":4,"sp":252},"moves":["Icicle Crash","Throat Chop","Giga Impact","Sacred Sword"]},
     "Almost Any Ability Swords Dance": {"ability":"Magic Guard","item":"Life Orb","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Icicle Crash","Throat Chop","Ice Shard"]},
     "Almost Any Ability Choice Band": {"ability":"Sword of Ruin","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Icicle Crash","Crunch","Sacred Sword","Ice Shard"]},
