@@ -4841,8 +4841,5 @@ var SETDEX_XY = {
   },
   "Kerfluffle": {
     "CAP Offensive Pivot": {"ability":"Natural Cure","item":"Choice Specs","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Moonblast","Aura Sphere","Sludge Bomb","Parting Shot"]}
-  },
-  "Eevee": {
-    "LC Showdown Usage": {"level":5,"ability":"Adaptability","item":"Eviolite","nature":"Jolly","evs":{"at":236,"df":36,"sp":236},"moves":["Protect","Quick Attack","Return"]}
   }
 };
